@@ -1,0 +1,153 @@
+/* fontes familia */
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+/* variaveis CSS */
+
+
+:root {
+    --yellow: #FFEB00;
+    --verde-claro: #6EC207;
+    --verde-escuro: #117554;
+    --azul: #4379F2;
+
+}
+
+
+/* Reset CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+}
+
+/* Fim reset css */
+
+/* Inicio Cascata css */
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.titulo__cabecalho {
+    font-size: 3em;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lista__navegacao__cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    font-size: 1.5em;
+    margin-top: 5%;
+    font-family: "EB Garamond", serif;
+    font-weight: 600;
+    list-style: none;
+}
+
+.item__lista__navegacao__cabecalho {
+    color: #000;
+
+}
+
+.links__lista__navegacao__cabecalho {
+    color: #000000;
+}
+
+.links__lista__navegacao__cabecalho:hover {
+    color: var(--azul);
+}
+
+
+.secao__principal__main {
+    background-color: var(--verde-escuro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5em;
+    margin-top: 5em;
+    padding: 2%;
+    border-radius: 1em;
+    margin-bottom: 1%;
+    
+}
+
+.artigo__quemsomos__secao__principal__main,
+.artigo__nossoslaboratorios__secao__principal__main,
+.artigo__nossosfuncionarios__secao__principal__main {
+
+    background-color: var(--verde-claro);
+    align-items: center;
+    border-radius: 0.4em;
+    border: 0.1em solid var(--azul);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    font-family: "Kanit", sans-serif;
+    text-align: center;
+    gap: 1em;
+    padding: 1.5em;
+    font-weight: 500;
+    box-shadow: 0.5em 0.5em 0.5em black;
+}
+
+.destaque__texto__secao__principal__main {
+    color: #ffffff;
+}
+
+
+.secao__secundaria__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    margin-top: 2%;
+    margin-bottom: 8%;
+}
+
+.subtitulo__secao__secundaria__main {
+    font-family: "Zilla Slab", serif;
+}
+
+
+.link__secao__secundaria__main {
+    font-size: 1.5em;
+    background-color: var(--azul);
+    color: var(--yellow);
+    border-radius: 1em;
+    width: 30%;
+    height: 2em;
+    text-align: center;
+    padding: 0.9%;
+    font-weight: 600;
+    box-shadow: 1em 1em #000000;
+    font-family: "Zilla Slab", serif;
+
+}
+
+
+.rodape {
+    text-align: center;
+    padding: 70px;
+    background-color: #021b31;
+    color: #ffffff;
+    border-radius: 1em;
+}
