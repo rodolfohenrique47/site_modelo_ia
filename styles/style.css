@@ -151,3 +151,259 @@ body{
     color: #ffffff;
     border-radius: 1em;
 }
+
+/* inicio responsividade */
+
+
+@media (max-width: 721px) {
+    .link__secao__secundaria__main {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 673px) {
+    .link__secao__secundaria__main {
+        font-size: 1em;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .artigo__quemsomos__secao__principal__main {
+        font-size: 0.9em;
+    }
+
+    .artigo__nossoslaboratorios__secao__principal__main {
+        font-size: 0.9em;
+    }
+
+    .artigo__nossosfuncionarios__secao__principal__main {
+        font-size: 0.9em;
+    }
+
+    .subtitulo__secao__secundaria__main {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 630px) {
+    .texto__artigo__quemsomos__secao__principal__main {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 570px) {
+    .lista__navegacao__cabecalho {
+        gap: 1em;
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 530px) {
+    .texto__artigo__quemsomos__secao__principal__main {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 510px) {
+    .texto__artigo__quemsomos__secao__principal__main {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 481px) {
+    .link__secao__secundaria__main {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 433px) {
+    .link__secao__secundaria__main{
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 426px) {
+    .subtitulo__secao__secundaria__main {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 399px) {
+    .titulo__cabecalho {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 370px) {
+    .artigo__quemsomos__secao__principal__main {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 341px) {
+    .subtitulo__secao__secundaria__main {
+        font-size: 0.6em;
+    }
+}
+
+@media (max-width: 336px) {
+    .link__secao__secundaria__main {
+        font-size: 0.5em;
+    }
+}
+
+@media (max-width: 320px) {
+    .titulo__cabecalho {
+        font-size: 1.5em;
+    }
+
+    .lista__navegacao__cabecalho {
+        gap: 1em;
+        font-size: 3em;
+    } 
+
+    .links__lista__navegacao__cabecalho {
+        font-size: 10em;
+    }
+
+    .secao__principal__main {
+        margin-top: 2em;
+        padding: 1.1em;
+    }
+
+    .texto__artigo__quemsomos__secao__principal__main
+    {
+        font-size: 5em;
+    }
+
+    .texto__artigo__nossoslaboratoios__secao__principal__main {
+        font-size: 0.6em;
+    }
+
+    .texto__nossosfuncionarios__secao__principal__main {
+        font-size: 0.6em;
+    }
+
+    .subtitulo__secao__secundaria__main {
+        font-size: 0.9em;
+        margin-top: 0.5em;
+    }
+
+    .link__secao__secundaria__main {
+        font-size: 4px;
+    }
+
+    .paragrafo__rodape {
+        font-size: 0.8em;
+    }
+
+    }
+
+
+    @media (max-width: 375px) {
+        .titulo__cabecalho {
+            font-size: 1.5em;
+        }
+    
+    
+        .links__lista__navegacao__cabecalho {
+            font-size: 0.4em;
+            justify-content: space-around;
+        }
+    
+        .secao__principal__main {
+            margin-top: 2em;
+            padding: 1.1em;
+            
+        }
+    
+        .texto__artigo__quemsomos__secao__principal__main
+        {
+            font-size: 0.4em;
+            
+        }
+    
+        .texto__artigo__nossoslaboratoios__secao__principal__main {
+            font-size: 0.5em;
+        }
+    
+        .texto__nossosfuncionarios__secao__principal__main {
+            font-size: 0.4em;
+            
+        }
+    
+        .subtitulo__secao__secundaria__main {
+            font-size: 0.7em;
+            margin-top: 0.5em;
+        }
+    
+        .link__secao__secundaria__main {
+            font-size: 0.7em;
+        }
+    
+        .paragrafo__rodape {
+            font-size: 0.6em;
+        }
+    
+    }
+
+
+@media (max-width: 320px) {
+    .titulo__cabecalho {
+        font-size: 1em;
+    }
+
+    .lista__navegacao__cabecalho {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .links__lista__navegacao__cabecalho {
+        font-size: 0.2em;
+        justify-content: space-around;
+    }
+
+    .secao__principal__main {
+        margin-top: 2em;
+        padding: 1.1em;
+        
+    }
+
+    .texto__artigo__quemsomos__secao__principal__main
+    {
+        font-size: 0.4em;
+        
+    }
+
+    .texto__artigo__nossoslaboratoios__secao__principal__main {
+        font-size: 0.5em;
+    }
+
+    .texto__nossosfuncionarios__secao__principal__main {
+        font-size: 0.4em;
+        
+    }
+
+    .subtitulo__secao__secundaria__main {
+        font-size: 0.7em;
+        margin-top: 0.5em;
+    }
+
+    .link__secao__secundaria__main {
+        font-size: 0.5em;
+    }
+
+    .paragrafo__rodape {
+        font-size: 0.6em;
+    }
+
+}
+
+/* fim responsividade */
+
+
+
+
+
+
